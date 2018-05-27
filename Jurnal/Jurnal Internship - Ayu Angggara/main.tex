@@ -1,0 +1,83 @@
+%%class
+\documentclass{iaesarticle3}
+
+%%required package. add for your convenient, but do not remove the initial
+\usepackage{amsmath, amsfonts, amssymb, float, fancyhdr}
+\usepackage[scaled]{uarial}
+\usepackage[figuresright]{rotating}
+\usepackage{authblk, graphicx, indentfirst, lastpage, lipsum}
+\setlength{\affilsep}{0cm}
+\renewcommand\Authfont{\normalsize}
+\renewcommand\Affilfont{\normalfont\small}
+\usepackage{subfig, caption, epstopdf}
+\usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm, includefoot]{geometry}
+\usepackage{caption}
+\captionsetup{labelsep=period}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\titleformat{\section}
+  {\normalfont\normalsize\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0cm}{0.7cm}{0cm}
+\titlespacing*{\subsection}{0cm}{0.5cm}{0cm}
+
+%%leave copyright info to the editor
+\CopyrightLine[Copyright]{2013}{Universitas Ahmad Dahlan. All rights reserved.}
+
+%%author
+\author[*]{\bfseries Ayu Anggara}
+\author[ ]{\bfseries M. Yusril Helmi Setyawan}
+%%author's affiliation
+\affil[ ]{Applied Bachelor Program of Informatics Engineering, Politeknik Pos Indonesia}
+\affil[ ]{Bandung Indonesia, Phone. 022-2009562, 2009570 Fax. 022-2009568}
+\affil[*]{Ayu Anggara, e-mail: ayuanggaraspentwo@gmail.com}
+
+%%title and shortitle (for footer)
+\title{Implementation of Multi-Factor Authentication Method to Minimize RFID Duplication.}
+\shorttitle{Open Presences System Design (Ayu Anggara)}
+
+%%starting
+\begin{document}
+
+%%indentation. do not change
+\setlength{\parindent}{1.27cm}
+
+%%header and footer setting. do not change
+\pagestyle{fancy}
+\fancyhfoffset{0cm}
+
+%%journal info
+\journalname{TELKOMNIKA Indonesian Journal of Electrical Engineering}
+\journalshortname{TELKOMNIKA}
+\revhistory{Received May 9, 201x; Revised August 3, 201x; Accepted August 16, 201x}
+\vol{x}
+\no{x}
+\doi{10.11591/telkomnika.vXiY.abcd}
+\months{April}
+\years{2013}
+\issn{2302-4046}
+
+%%build title
+\maketitle
+
+
+\input{section/abstract.tex}
+
+\input{section/1.tex}
+
+\input{section/2.tex}
+
+\input{section/3.tex}
+
+\input{section/4.tex}
+
+\input{section/5.tex}
+
+\input{section/6.tex}
+
+%\input{section/7.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+
+\end{document}
